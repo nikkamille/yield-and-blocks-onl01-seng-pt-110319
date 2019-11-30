@@ -1,9 +1,12 @@
 def hello_t(names)
   i = 0 
-  while i < array.length 
-  
-
+  while i < array.length
+    yield names[i]
+    i = i + 1
+  end
 end
 
 # call your method here!
+
+hello_t()
 
